@@ -17,7 +17,6 @@ import NotFound from './pages/NotFound/NotFound'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 import SideBar from './components/SideBar/SideBar'
 import { StoreContext } from './context/StoreContext'
-import Test from './components/test'
 import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
 
@@ -38,7 +37,6 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
           <Route path='/menu' element={<Menu />} />
           <Route path='/sidebar' element={<SideBar />} />
-          <Route path='/test' element={<Test />} />
           <Route path='/verify' element={<Verify />} />
           <Route path='/myorders' element={<MyOrders />} />
           <Route path='/*' element={<NotFound />} />
