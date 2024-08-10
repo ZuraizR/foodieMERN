@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.heading-underline {
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.heading-underline::before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 2px;
+  background-color: #ff3636;
+  bottom: 0;
+  left: 1%;
+}
+
+.heading-underline::after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: #ff3636;
+  bottom: -5px;
+  left: 1%;
+}
+
+.overlay {
+  border-image: fill 0 linear-gradient(#0003, #0006);
+}
+
+.Toastify__toast-container {
+  margin-top: 4rem;
+}

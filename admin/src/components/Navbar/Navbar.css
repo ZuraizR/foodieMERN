@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 4%;
+}
+
+.navbar .logo {
+    position: relative;
+    width: max(10%, 100px);
+    color: tomato;
+    cursor: pointer;
+}
+
+.logo-para {
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: tomato;
+    top: 3rem;
+}
+
+.navbar .profile {
+    width: 40px;
+}
