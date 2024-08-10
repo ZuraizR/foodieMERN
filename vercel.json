@@ -1,0 +1,25 @@
+{
+  "projects": {
+    "admin": {
+      "root": "admin",
+      "buildCommand": "npm run build",
+      "outputDirectory": "build"
+    },
+    "frontend": {
+      "root": "frontend",
+      "buildCommand": "npm run build",
+      "outputDirectory": "build"
+    },
+    "backend": {
+      "root": "backend",
+      "buildCommand": "npm run build",
+      "outputDirectory": "dist"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/backend/$1"
+    }
+  ]
+}
