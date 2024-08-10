@@ -6,7 +6,7 @@ export const StoreContext = createContext(null)
 
 const StoreContextProvider = ({ children }) => {
   // server URL
-  const url = 'http://localhost:4000'
+  const url = 'https://foodie-mern-backend.vercel.app'
   // food list items state
   const [food_list, setFoodList] = useState([])
   // Cart Product Items State
