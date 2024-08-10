@@ -10,7 +10,7 @@ import List from './pages/List/List'
 import Orders from './pages/Orders/Orders'
 
 const App = () => {
-  const url = 'http://localhost:4000'
+  const url = 'https://foodie-mern-backend.vercel.app'
   return (
     <div>
       <ToastContainer />
